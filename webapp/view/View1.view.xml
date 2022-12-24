@@ -1,0 +1,19 @@
+<mvc:View controllerName="palindrome1.palindromeproject1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox alignContent="Center" alignItems="Center">
+                <f:SimpleForm editable="true" alignItems="Center" alignContent="Center" title="Palindrome" width="350px" class=".sapMFlexBoxBGTransparent">
+                    <f:content>
+                        <VBox alignContent="Center" alignItems="Center">
+                            <HBox>
+                                <Label text="Enter any String: " />
+                                <Input value="" id="inpt1" width="120px" height="100px" />
+                            </HBox>
+                            <Button text="Check" press="onPressSubmit" width="150px" type="Emphasized" />
+                        </VBox>
+                    </f:content>
+                </f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
